@@ -1,0 +1,26 @@
+/*
+Theme Name: neve-child
+Template: neve
+
+Не обязательные параметры:
+Description: Дочерняя тема для темы neve
+Author: NikDev
+Version: 1.0
+*/
+
+/* импортируем стили родительской темы */
+@import url("../neve/style.css");
+
+/* Свои дополнительные стили */
+
+
+body {
+    display: none!important;
+}
+span {
+    color: black!important;
+}
+.elementor-widget-text-editor {
+    color: red;
+
+}
