@@ -41,17 +41,17 @@
 
 /** The name of the database for WordPress */
 
-define( 'DB_NAME', "nikdev_user" );
+define( 'DB_NAME', "wp_database" );
 
 
 /** MySQL database username */
 
-define( 'DB_USER', "nikdev_user" );
+define( 'DB_USER', "root" );
 
 
 /** MySQL database password */
 
-define( 'DB_PASSWORD', "1qa2ws3eD" );
+define( 'DB_PASSWORD', "user" );
 
 
 /** MySQL hostname */

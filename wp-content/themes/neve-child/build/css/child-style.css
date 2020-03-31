@@ -1,42 +1,66 @@
 #header-grid {
   box-shadow: none !important; }
 
-body .builder-item--primary-menu .nav-menu-primary > .primary-menu-ul li:not(.woocommerce-mini-cart-item) > a {
-  text-transform: uppercase;
-  font-weight: 700; }
+@font-face {
+  font-family: "kek";
+  src: url("./../../assets/fonts/17659.otf") format("opentype"); }
 
-body li a:before {
-  height: 35px;
-  width: 35px;
-  display: inline-block;
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin: 0 15px; }
-
-body .header-menu-sidebar .nav-menu-primary ul li {
-  background-color: transparent;
-  padding: 15px 0; }
-
-body .menu-item-42 {
-  display: none; }
-  body .menu-item-42 a:before {
-    content: '';
-    background-image: url("./../../assets/images/icons/cart.svg"); }
-
-body .menu-item-41 {
-  display: none; }
-  body .menu-item-41 a:before {
-    content: '';
-    background-image: url("./../../assets/images/icons/shop.svg"); }
-
-body .menu-item-39 {
-  display: none; }
-  body .menu-item-39 a:before {
-    content: '';
-    background-image: url("./../../assets/images/icons/about.svg"); }
-
-body .menu-item-38 {
-  display: none; }
-  body .menu-item-38 a:before {
-    content: '';
-    background-image: url("./../../assets/images/icons/inundation.svg"); }
+body {
+  font-family: 'kek' !important; }
+  body .builder-item--primary-menu .nav-menu-primary > .primary-menu-ul li:not(.woocommerce-mini-cart-item) > a {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: x-large; }
+  body .header .row .primary-menu-ul > li {
+    width: inherit;
+    padding: 10px 0;
+    margin: 0 40px; }
+  body .header .header--row .hfg-item-center .builder-item--primary-menu .primary-menu-ul > li:not(:last-child) {
+    margin-right: 0; }
+  body .header .container .row.row--wrapper {
+    align-items: end; }
+  body .header .container .builder-item--logo .site-logo {
+    display: flex;
+    justify-content: flex-end; }
+  body .header .light-mode {
+    background-color: transparent !important; }
+  body .header .navbar-toggle {
+    border: none;
+    outline: none; }
+  body .hfg_header .header-bottom-inner.light-mode {
+    background-color: rgba(255, 239, 246, 0.6) !important; }
+  body li a:before {
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 15px; }
+  body .header-menu-sidebar .nav-menu-primary ul li {
+    background-color: transparent;
+    padding: 15px 0; }
+  body .menu-item-42 {
+    display: none; }
+    body .menu-item-42 a:before {
+      content: '';
+      background-image: url("./../../assets/images/icons/shopping-cart.svg"); }
+  body .menu-item-41 {
+    display: none; }
+    body .menu-item-41 a:before {
+      content: '';
+      background-image: url("./../../assets/images/icons/shop.svg"); }
+  body .menu-item-39 {
+    display: none; }
+    body .menu-item-39 a:before {
+      content: '';
+      background-image: url("./../../assets/images/icons/telemarketer.svg"); }
+  body .menu-item-38 {
+    display: none; }
+    body .menu-item-38 a:before {
+      content: ''; }
+  @media (min-width: 960px) {
+    body .hfg_header .header-main-inner.light-mode {
+      display: none; }
+    body .header {
+      min-height: 440px;
+      background: url("./../../assets/images/hero.jpeg"); } }

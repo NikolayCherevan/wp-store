@@ -1,9 +1,57 @@
 @import './_pages/_home.scss';
+$desktop: 960px;
+
+@font-face {
+    font-family: "kek";
+    src: url("./../../assets/fonts/17659.otf") format("opentype");
+}
+
+
+
 
 body {
+    font-family: 'kek' !important;
+
     .builder-item--primary-menu .nav-menu-primary>.primary-menu-ul li:not(.woocommerce-mini-cart-item)>a {
         text-transform: uppercase;
         font-weight: 700;
+        font-size: x-large;
+    }
+
+    .header {
+        .row .primary-menu-ul>li {
+            width: inherit;
+            padding: 10px 0;
+            margin: 0 40px;
+        }
+        .header--row .hfg-item-center .builder-item--primary-menu .primary-menu-ul > li:not(:last-child) {
+            margin-right: 0;
+        }
+        .container {
+            .row.row--wrapper {
+                align-items: end;
+            }
+            .builder-item--logo .site-logo {
+                display: flex;
+                justify-content: flex-end;
+            }
+        }
+
+        .light-mode {
+            background-color: transparent !important;
+        }
+
+        .navbar-toggle {
+            border: none;
+
+            outline: none;
+
+        }
+    }
+
+    .hfg_header .header-bottom-inner.light-mode {
+
+        background-color: rgba(255, 239, 246, .6) !important;
     }
 
     li {
@@ -19,21 +67,26 @@ body {
 
         }
     }
+
     .header-menu-sidebar .nav-menu-primary ul li {
         background-color: transparent;
         padding: 15px 0;
     }
+
     .menu-item-42 {
         display: none;
+
         a {
             &:before {
                 content: '';
-                background-image: url('./../../assets/images/icons/cart.svg');
+                background-image: url('./../../assets/images/icons/shopping-cart.svg');
             }
         }
     }
+
     .menu-item-41 {
         display: none;
+
         a {
             &:before {
                 content: '';
@@ -41,22 +94,36 @@ body {
             }
         }
     }
+
     .menu-item-39 {
         display: none;
+
         a {
             &:before {
                 content: '';
-                background-image: url('./../../assets/images/icons/about.svg');
+                background-image: url('./../../assets/images/icons/telemarketer.svg');
             }
         }
     }
+
     .menu-item-38 {
         display: none;
+
         a {
             &:before {
                 content: '';
-                background-image: url('./../../assets/images/icons/inundation.svg');
             }
         }
+    }
+
+    @media (min-width: $desktop) {
+        .hfg_header .header-main-inner.light-mode {
+            display: none;
+        }
+        .header {
+            min-height: 440px;
+            background: url('./../../assets/images/hero.jpeg');
+        }
+
     }
 }
