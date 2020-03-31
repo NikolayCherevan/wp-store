@@ -7,10 +7,15 @@
 
 body {
   font-family: 'kek' !important; }
+  body #nv-primary-navigation-bottom li:hover {
+    color: #7FA778 !important; }
+  body a:hover {
+    color: #7FA778 !important; }
+  body h1 {
+    font-family: 'kek' !important; }
   body .builder-item--primary-menu .nav-menu-primary > .primary-menu-ul li:not(.woocommerce-mini-cart-item) > a {
     text-transform: uppercase;
-    font-weight: 700;
-    font-size: x-large; }
+    font-weight: 700; }
   body .header .row .primary-menu-ul > li {
     width: inherit;
     padding: 10px 0;
@@ -49,15 +54,18 @@ body {
     body .menu-item-41 a:before {
       content: '';
       background-image: url("./../../assets/images/icons/shop.svg"); }
+  body .builder-item--primary-menu .nav-menu-primary > .primary-menu-ul li.current-menu-item > a {
+    color: #7FA778; }
   body .menu-item-39 {
     display: none; }
     body .menu-item-39 a:before {
       content: '';
       background-image: url("./../../assets/images/icons/telemarketer.svg"); }
-  body .menu-item-38 {
+  body .menu-item-125 {
     display: none; }
-    body .menu-item-38 a:before {
-      content: ''; }
+    body .menu-item-125 a:before {
+      content: '';
+      background-image: url("./../../assets/images/icons/sales.svg"); }
   @media (min-width: 960px) {
     body .hfg_header .header-main-inner.light-mode {
       display: none; }
