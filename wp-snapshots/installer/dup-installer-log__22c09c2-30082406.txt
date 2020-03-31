@@ -1,0 +1,611 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 08:38:59
+* VERSION: 1.3.28
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.0.33-0ubuntu0.16.04.12              |7.1.33
+OS__________________: Linux                                 |Linux
+CREATED_____________: 2020-03-30 08:24:06
+WP VERSION__________: 5.3.2
+DUP VERSION_________: 1.3.28
+DB__________________: 5.7.29
+DB TABLES___________: 45
+DB ROWS_____________: 928
+DB FILE SIZE________: 4.72MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.1.33 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.10 (Unix)
+DOC ROOT____________: "/home/n/nikdev/beget.tech/public_html"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://nikdev.beget.tech/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "duparchive"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "20200330_22c09c2892d241186107_20200330082406_archive.daf"
+SIZE________________: 84.8MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+>>> DupArchive Extraction Complete
+
+--------------------------------------
+DUPARCHIVE EXTRACTION STATUS
+--------------------------------------
+Archive extracted with no errors.
+
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 08:39:00 - RUNTIME: 1.2754 sec.
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'nikdev_user'@'m2.stack.beget.com' (using password: YES) [CODE:2|FILE:/home/n/nikdev/beget.tech/public_html/dup-installer/classes/class.db.php|LINE:43]
+DATABASE CONNECTION ERROR: Access denied for user 'nikdev_user'@'m2.stack.beget.com' (using password: YES)[ERRNO:1045]
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 08:41:57
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.21 -- Build Server: 5.7.29
+FILE SIZE:	dup-database__22c09c2-30082406.sql (1.63MB)
+TIMEOUT:	5000
+MAXPACK:	33554432
+SQLMODE:	NOT_SET
+NEW SQL FILE:	[/home/n/nikdev/beget.tech/public_html/dup-installer/dup-installer-data__22c09c2-30082406.sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.7.21] is less than the build version [5.7.29].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	392
+
+wp_actionscheduler_actions: (2)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (1)
+wp_actionscheduler_logs: (6)
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_mailchimp_carts: (0)
+wp_mailchimp_jobs: (0)
+wp_options: (332)
+wp_postmeta: (352)
+wp_posts: (99)
+wp_term_relationships: (7)
+wp_term_taxonomy: (16)
+wp_termmeta: (0)
+wp_terms: (16)
+wp_usermeta: (30)
+wp_users: (1)
+wp_wc_admin_note_actions: (6)
+wp_wc_admin_notes: (6)
+wp_wc_category_lookup: (1)
+wp_wc_customer_lookup: (0)
+wp_wc_download_log: (0)
+wp_wc_order_coupon_lookup: (0)
+wp_wc_order_product_lookup: (0)
+wp_wc_order_stats: (0)
+wp_wc_order_tax_lookup: (0)
+wp_wc_product_meta_lookup: (0)
+wp_wc_tax_rate_classes: (2)
+wp_wc_webhooks: (0)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (0)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (0)
+wp_woocommerce_order_items: (0)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (1)
+wp_woocommerce_shipping_zone_locations: (1)
+wp_woocommerce_shipping_zone_methods: (0)
+wp_woocommerce_shipping_zones: (1)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (0)
+Removed '74' cache/transient rows
+
+INSERT DATA RUNTIME: 0.4295 sec.
+STEP-2 COMPLETE @ 08:41:58 - RUNTIME: 0.4381 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 08:42:36
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: ""
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/var/www/html"
+path_new______________: "/home/n/nikdev/beget.tech/public_html"
+siteurl_______________: "http://nikdev.beget.tech"
+url_old_______________: "http://localhost"
+url_new_______________: "http://nikdev.beget.tech"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbhost________________: "localhost"
+dbuser________________: "nikdev_user"
+dbname________________: "nikdev_user"
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/home/n/nikdev/beget.tech/public_html"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/home\/n\/nikdev\/beget.tech\/public_html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhome%2Fn%2Fnikdev%2Fbeget.tech%2Fpublic_html"
+	SEARCH  4:"\var\www\html" ===================================> "/home/n/nikdev/beget.tech/public_html"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/home\/n\/nikdev\/beget.tech\/public_html"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhome%2Fn%2Fnikdev%2Fbeget.tech%2Fpublic_html"
+	SEARCH  7:"//localhost" =====================================> "//nikdev.beget.tech"
+	SEARCH  8:"\/\/localhost" ===================================> "\/\/nikdev.beget.tech"
+	SEARCH  9:"%2F%2Flocalhost" =================================> "%2F%2Fnikdev.beget.tech"
+	SEARCH 10:"https://nikdev.beget.tech" =======================> "http://nikdev.beget.tech"
+	SEARCH 11:"https:\/\/nikdev.beget.tech" =====================> "http:\/\/nikdev.beget.tech"
+	SEARCH 12:"https%3A%2F%2Fnikdev.beget.tech" =================> "http%3A%2F%2Fnikdev.beget.tech"
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/home/n/nikdev/beget.tech/public_html"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/home\/n\/nikdev\/beget.tech\/public_html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhome%2Fn%2Fnikdev%2Fbeget.tech%2Fpublic_html"
+	SEARCH  4:"\var\www\html" ===================================> "/home/n/nikdev/beget.tech/public_html"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/home\/n\/nikdev\/beget.tech\/public_html"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhome%2Fn%2Fnikdev%2Fbeget.tech%2Fpublic_html"
+	SEARCH  7:"//localhost" =====================================> "//nikdev.beget.tech"
+	SEARCH  8:"\/\/localhost" ===================================> "\/\/nikdev.beget.tech"
+	SEARCH  9:"%2F%2Flocalhost" =================================> "%2F%2Fnikdev.beget.tech"
+	SEARCH 10:"https://nikdev.beget.tech" =======================> "http://nikdev.beget.tech"
+	SEARCH 11:"https:\/\/nikdev.beget.tech" =====================> "http:\/\/nikdev.beget.tech"
+	SEARCH 12:"https%3A%2F%2Fnikdev.beget.tech" =================> "http%3A%2F%2Fnikdev.beget.tech"
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/home/n/nikdev/beget.tech/public_html"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/home\/n\/nikdev\/beget.tech\/public_html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhome%2Fn%2Fnikdev%2Fbeget.tech%2Fpublic_html"
+	SEARCH  4:"\var\www\html" ===================================> "/home/n/nikdev/beget.tech/public_html"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/home\/n\/nikdev\/beget.tech\/public_html"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhome%2Fn%2Fnikdev%2Fbeget.tech%2Fpublic_html"
+	SEARCH  7:"//localhost" =====================================> "//nikdev.beget.tech"
+	SEARCH  8:"\/\/localhost" ===================================> "\/\/nikdev.beget.tech"
+	SEARCH  9:"%2F%2Flocalhost" =================================> "%2F%2Fnikdev.beget.tech"
+	SEARCH 10:"https://nikdev.beget.tech" =======================> "http://nikdev.beget.tech"
+	SEARCH 11:"https:\/\/nikdev.beget.tech" =====================> "http:\/\/nikdev.beget.tech"
+	SEARCH 12:"https%3A%2F%2Fnikdev.beget.tech" =================> "http%3A%2F%2Fnikdev.beget.tech"
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/home/n/nikdev/beget.tech/public_html"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/home\/n\/nikdev\/beget.tech\/public_html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhome%2Fn%2Fnikdev%2Fbeget.tech%2Fpublic_html"
+	SEARCH  4:"\var\www\html" ===================================> "/home/n/nikdev/beget.tech/public_html"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/home\/n\/nikdev\/beget.tech\/public_html"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhome%2Fn%2Fnikdev%2Fbeget.tech%2Fpublic_html"
+	SEARCH  7:"//localhost" =====================================> "//nikdev.beget.tech"
+	SEARCH  8:"\/\/localhost" ===================================> "\/\/nikdev.beget.tech"
+	SEARCH  9:"%2F%2Flocalhost" =================================> "%2F%2Fnikdev.beget.tech"
+	SEARCH 10:"https://nikdev.beget.tech" =======================> "http://nikdev.beget.tech"
+	SEARCH 11:"https:\/\/nikdev.beget.tech" =====================> "http:\/\/nikdev.beget.tech"
+	SEARCH 12:"https%3A%2F%2Fnikdev.beget.tech" =================> "http%3A%2F%2Fnikdev.beget.tech"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailchimp_carts"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailchimp_jobs"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   332][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/home/n/nikdev/beget.tech/public_html"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/home\/n\/nikdev\/beget.tech\/public_html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhome%2Fn%2Fnikdev%2Fbeget.tech%2Fpublic_html"
+	SEARCH  4:"\var\www\html" ===================================> "/home/n/nikdev/beget.tech/public_html"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/home\/n\/nikdev\/beget.tech\/public_html"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhome%2Fn%2Fnikdev%2Fbeget.tech%2Fpublic_html"
+	SEARCH  7:"//localhost" =====================================> "//nikdev.beget.tech"
+	SEARCH  8:"\/\/localhost" ===================================> "\/\/nikdev.beget.tech"
+	SEARCH  9:"%2F%2Flocalhost" =================================> "%2F%2Fnikdev.beget.tech"
+	SEARCH 10:"https://nikdev.beget.tech" =======================> "http://nikdev.beget.tech"
+	SEARCH 11:"https:\/\/nikdev.beget.tech" =====================> "http:\/\/nikdev.beget.tech"
+	SEARCH 12:"https%3A%2F%2Fnikdev.beget.tech" =================> "http%3A%2F%2Fnikdev.beget.tech"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:   352][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/home/n/nikdev/beget.tech/public_html"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/home\/n\/nikdev\/beget.tech\/public_html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhome%2Fn%2Fnikdev%2Fbeget.tech%2Fpublic_html"
+	SEARCH  4:"\var\www\html" ===================================> "/home/n/nikdev/beget.tech/public_html"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/home\/n\/nikdev\/beget.tech\/public_html"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhome%2Fn%2Fnikdev%2Fbeget.tech%2Fpublic_html"
+	SEARCH  7:"//localhost" =====================================> "//nikdev.beget.tech"
+	SEARCH  8:"\/\/localhost" ===================================> "\/\/nikdev.beget.tech"
+	SEARCH  9:"%2F%2Flocalhost" =================================> "%2F%2Fnikdev.beget.tech"
+	SEARCH 10:"https://nikdev.beget.tech" =======================> "http://nikdev.beget.tech"
+	SEARCH 11:"https:\/\/nikdev.beget.tech" =====================> "http:\/\/nikdev.beget.tech"
+	SEARCH 12:"https%3A%2F%2Fnikdev.beget.tech" =================> "http%3A%2F%2Fnikdev.beget.tech"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:    99][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/home/n/nikdev/beget.tech/public_html"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/home\/n\/nikdev\/beget.tech\/public_html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhome%2Fn%2Fnikdev%2Fbeget.tech%2Fpublic_html"
+	SEARCH  4:"\var\www\html" ===================================> "/home/n/nikdev/beget.tech/public_html"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/home\/n\/nikdev\/beget.tech\/public_html"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhome%2Fn%2Fnikdev%2Fbeget.tech%2Fpublic_html"
+	SEARCH  7:"//localhost" =====================================> "//nikdev.beget.tech"
+	SEARCH  8:"\/\/localhost" ===================================> "\/\/nikdev.beget.tech"
+	SEARCH  9:"%2F%2Flocalhost" =================================> "%2F%2Fnikdev.beget.tech"
+	SEARCH 10:"https://nikdev.beget.tech" =======================> "http://nikdev.beget.tech"
+	SEARCH 11:"https:\/\/nikdev.beget.tech" =====================> "http:\/\/nikdev.beget.tech"
+	SEARCH 12:"https%3A%2F%2Fnikdev.beget.tech" =================> "http%3A%2F%2Fnikdev.beget.tech"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/home/n/nikdev/beget.tech/public_html"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/home\/n\/nikdev\/beget.tech\/public_html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhome%2Fn%2Fnikdev%2Fbeget.tech%2Fpublic_html"
+	SEARCH  4:"\var\www\html" ===================================> "/home/n/nikdev/beget.tech/public_html"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/home\/n\/nikdev\/beget.tech\/public_html"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhome%2Fn%2Fnikdev%2Fbeget.tech%2Fpublic_html"
+	SEARCH  7:"//localhost" =====================================> "//nikdev.beget.tech"
+	SEARCH  8:"\/\/localhost" ===================================> "\/\/nikdev.beget.tech"
+	SEARCH  9:"%2F%2Flocalhost" =================================> "%2F%2Fnikdev.beget.tech"
+	SEARCH 10:"https://nikdev.beget.tech" =======================> "http://nikdev.beget.tech"
+	SEARCH 11:"https:\/\/nikdev.beget.tech" =====================> "http:\/\/nikdev.beget.tech"
+	SEARCH 12:"https%3A%2F%2Fnikdev.beget.tech" =================> "http%3A%2F%2Fnikdev.beget.tech"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    16][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/home/n/nikdev/beget.tech/public_html"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/home\/n\/nikdev\/beget.tech\/public_html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhome%2Fn%2Fnikdev%2Fbeget.tech%2Fpublic_html"
+	SEARCH  4:"\var\www\html" ===================================> "/home/n/nikdev/beget.tech/public_html"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/home\/n\/nikdev\/beget.tech\/public_html"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhome%2Fn%2Fnikdev%2Fbeget.tech%2Fpublic_html"
+	SEARCH  7:"//localhost" =====================================> "//nikdev.beget.tech"
+	SEARCH  8:"\/\/localhost" ===================================> "\/\/nikdev.beget.tech"
+	SEARCH  9:"%2F%2Flocalhost" =================================> "%2F%2Fnikdev.beget.tech"
+	SEARCH 10:"https://nikdev.beget.tech" =======================> "http://nikdev.beget.tech"
+	SEARCH 11:"https:\/\/nikdev.beget.tech" =====================> "http:\/\/nikdev.beget.tech"
+	SEARCH 12:"https%3A%2F%2Fnikdev.beget.tech" =================> "http%3A%2F%2Fnikdev.beget.tech"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    16][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/home/n/nikdev/beget.tech/public_html"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/home\/n\/nikdev\/beget.tech\/public_html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhome%2Fn%2Fnikdev%2Fbeget.tech%2Fpublic_html"
+	SEARCH  4:"\var\www\html" ===================================> "/home/n/nikdev/beget.tech/public_html"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/home\/n\/nikdev\/beget.tech\/public_html"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhome%2Fn%2Fnikdev%2Fbeget.tech%2Fpublic_html"
+	SEARCH  7:"//localhost" =====================================> "//nikdev.beget.tech"
+	SEARCH  8:"\/\/localhost" ===================================> "\/\/nikdev.beget.tech"
+	SEARCH  9:"%2F%2Flocalhost" =================================> "%2F%2Fnikdev.beget.tech"
+	SEARCH 10:"https://nikdev.beget.tech" =======================> "http://nikdev.beget.tech"
+	SEARCH 11:"https:\/\/nikdev.beget.tech" =====================> "http:\/\/nikdev.beget.tech"
+	SEARCH 12:"https%3A%2F%2Fnikdev.beget.tech" =================> "http%3A%2F%2Fnikdev.beget.tech"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    30][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/home/n/nikdev/beget.tech/public_html"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/home\/n\/nikdev\/beget.tech\/public_html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhome%2Fn%2Fnikdev%2Fbeget.tech%2Fpublic_html"
+	SEARCH  4:"\var\www\html" ===================================> "/home/n/nikdev/beget.tech/public_html"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/home\/n\/nikdev\/beget.tech\/public_html"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhome%2Fn%2Fnikdev%2Fbeget.tech%2Fpublic_html"
+	SEARCH  7:"//localhost" =====================================> "//nikdev.beget.tech"
+	SEARCH  8:"\/\/localhost" ===================================> "\/\/nikdev.beget.tech"
+	SEARCH  9:"%2F%2Flocalhost" =================================> "%2F%2Fnikdev.beget.tech"
+	SEARCH 10:"https://nikdev.beget.tech" =======================> "http://nikdev.beget.tech"
+	SEARCH 11:"https:\/\/nikdev.beget.tech" =====================> "http:\/\/nikdev.beget.tech"
+	SEARCH 12:"https%3A%2F%2Fnikdev.beget.tech" =================> "http%3A%2F%2Fnikdev.beget.tech"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/home/n/nikdev/beget.tech/public_html"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/home\/n\/nikdev\/beget.tech\/public_html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhome%2Fn%2Fnikdev%2Fbeget.tech%2Fpublic_html"
+	SEARCH  4:"\var\www\html" ===================================> "/home/n/nikdev/beget.tech/public_html"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/home\/n\/nikdev\/beget.tech\/public_html"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhome%2Fn%2Fnikdev%2Fbeget.tech%2Fpublic_html"
+	SEARCH  7:"//localhost" =====================================> "//nikdev.beget.tech"
+	SEARCH  8:"\/\/localhost" ===================================> "\/\/nikdev.beget.tech"
+	SEARCH  9:"%2F%2Flocalhost" =================================> "%2F%2Fnikdev.beget.tech"
+	SEARCH 10:"https://nikdev.beget.tech" =======================> "http://nikdev.beget.tech"
+	SEARCH 11:"https:\/\/nikdev.beget.tech" =====================> "http:\/\/nikdev.beget.tech"
+	SEARCH 12:"https%3A%2F%2Fnikdev.beget.tech" =================> "http%3A%2F%2Fnikdev.beget.tech"
+
+EVALUATE TABLE: "wp_wc_admin_note_actions"________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/home/n/nikdev/beget.tech/public_html"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/home\/n\/nikdev\/beget.tech\/public_html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhome%2Fn%2Fnikdev%2Fbeget.tech%2Fpublic_html"
+	SEARCH  4:"\var\www\html" ===================================> "/home/n/nikdev/beget.tech/public_html"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/home\/n\/nikdev\/beget.tech\/public_html"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhome%2Fn%2Fnikdev%2Fbeget.tech%2Fpublic_html"
+	SEARCH  7:"//localhost" =====================================> "//nikdev.beget.tech"
+	SEARCH  8:"\/\/localhost" ===================================> "\/\/nikdev.beget.tech"
+	SEARCH  9:"%2F%2Flocalhost" =================================> "%2F%2Fnikdev.beget.tech"
+	SEARCH 10:"https://nikdev.beget.tech" =======================> "http://nikdev.beget.tech"
+	SEARCH 11:"https:\/\/nikdev.beget.tech" =====================> "http:\/\/nikdev.beget.tech"
+	SEARCH 12:"https%3A%2F%2Fnikdev.beget.tech" =================> "http%3A%2F%2Fnikdev.beget.tech"
+
+EVALUATE TABLE: "wp_wc_admin_notes"_______________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/home/n/nikdev/beget.tech/public_html"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/home\/n\/nikdev\/beget.tech\/public_html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhome%2Fn%2Fnikdev%2Fbeget.tech%2Fpublic_html"
+	SEARCH  4:"\var\www\html" ===================================> "/home/n/nikdev/beget.tech/public_html"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/home\/n\/nikdev\/beget.tech\/public_html"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhome%2Fn%2Fnikdev%2Fbeget.tech%2Fpublic_html"
+	SEARCH  7:"//localhost" =====================================> "//nikdev.beget.tech"
+	SEARCH  8:"\/\/localhost" ===================================> "\/\/nikdev.beget.tech"
+	SEARCH  9:"%2F%2Flocalhost" =================================> "%2F%2Fnikdev.beget.tech"
+	SEARCH 10:"https://nikdev.beget.tech" =======================> "http://nikdev.beget.tech"
+	SEARCH 11:"https:\/\/nikdev.beget.tech" =====================> "http:\/\/nikdev.beget.tech"
+	SEARCH 12:"https%3A%2F%2Fnikdev.beget.tech" =================> "http%3A%2F%2Fnikdev.beget.tech"
+
+EVALUATE TABLE: "wp_wc_category_lookup"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/home/n/nikdev/beget.tech/public_html"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/home\/n\/nikdev\/beget.tech\/public_html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhome%2Fn%2Fnikdev%2Fbeget.tech%2Fpublic_html"
+	SEARCH  4:"\var\www\html" ===================================> "/home/n/nikdev/beget.tech/public_html"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/home\/n\/nikdev\/beget.tech\/public_html"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhome%2Fn%2Fnikdev%2Fbeget.tech%2Fpublic_html"
+	SEARCH  7:"//localhost" =====================================> "//nikdev.beget.tech"
+	SEARCH  8:"\/\/localhost" ===================================> "\/\/nikdev.beget.tech"
+	SEARCH  9:"%2F%2Flocalhost" =================================> "%2F%2Fnikdev.beget.tech"
+	SEARCH 10:"https://nikdev.beget.tech" =======================> "http://nikdev.beget.tech"
+	SEARCH 11:"https:\/\/nikdev.beget.tech" =====================> "http:\/\/nikdev.beget.tech"
+	SEARCH 12:"https%3A%2F%2Fnikdev.beget.tech" =================> "http%3A%2F%2Fnikdev.beget.tech"
+
+EVALUATE TABLE: "wp_wc_customer_lookup"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_coupon_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_product_lookup"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_stats"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_tax_lookup"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_tax_rate_classes"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/home/n/nikdev/beget.tech/public_html"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/home\/n\/nikdev\/beget.tech\/public_html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhome%2Fn%2Fnikdev%2Fbeget.tech%2Fpublic_html"
+	SEARCH  4:"\var\www\html" ===================================> "/home/n/nikdev/beget.tech/public_html"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/home\/n\/nikdev\/beget.tech\/public_html"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhome%2Fn%2Fnikdev%2Fbeget.tech%2Fpublic_html"
+	SEARCH  7:"//localhost" =====================================> "//nikdev.beget.tech"
+	SEARCH  8:"\/\/localhost" ===================================> "\/\/nikdev.beget.tech"
+	SEARCH  9:"%2F%2Flocalhost" =================================> "%2F%2Fnikdev.beget.tech"
+	SEARCH 10:"https://nikdev.beget.tech" =======================> "http://nikdev.beget.tech"
+	SEARCH 11:"https:\/\/nikdev.beget.tech" =====================> "http:\/\/nikdev.beget.tech"
+	SEARCH 12:"https%3A%2F%2Fnikdev.beget.tech" =================> "http%3A%2F%2Fnikdev.beget.tech"
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/home/n/nikdev/beget.tech/public_html"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/home\/n\/nikdev\/beget.tech\/public_html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhome%2Fn%2Fnikdev%2Fbeget.tech%2Fpublic_html"
+	SEARCH  4:"\var\www\html" ===================================> "/home/n/nikdev/beget.tech/public_html"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/home\/n\/nikdev\/beget.tech\/public_html"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhome%2Fn%2Fnikdev%2Fbeget.tech%2Fpublic_html"
+	SEARCH  7:"//localhost" =====================================> "//nikdev.beget.tech"
+	SEARCH  8:"\/\/localhost" ===================================> "\/\/nikdev.beget.tech"
+	SEARCH  9:"%2F%2Flocalhost" =================================> "%2F%2Fnikdev.beget.tech"
+	SEARCH 10:"https://nikdev.beget.tech" =======================> "http://nikdev.beget.tech"
+	SEARCH 11:"https:\/\/nikdev.beget.tech" =====================> "http:\/\/nikdev.beget.tech"
+	SEARCH 12:"https%3A%2F%2Fnikdev.beget.tech" =================> "http%3A%2F%2Fnikdev.beget.tech"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/home/n/nikdev/beget.tech/public_html"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/home\/n\/nikdev\/beget.tech\/public_html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhome%2Fn%2Fnikdev%2Fbeget.tech%2Fpublic_html"
+	SEARCH  4:"\var\www\html" ===================================> "/home/n/nikdev/beget.tech/public_html"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/home\/n\/nikdev\/beget.tech\/public_html"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhome%2Fn%2Fnikdev%2Fbeget.tech%2Fpublic_html"
+	SEARCH  7:"//localhost" =====================================> "//nikdev.beget.tech"
+	SEARCH  8:"\/\/localhost" ===================================> "\/\/nikdev.beget.tech"
+	SEARCH  9:"%2F%2Flocalhost" =================================> "%2F%2Fnikdev.beget.tech"
+	SEARCH 10:"https://nikdev.beget.tech" =======================> "http://nikdev.beget.tech"
+	SEARCH 11:"https:\/\/nikdev.beget.tech" =====================> "http:\/\/nikdev.beget.tech"
+	SEARCH 12:"https%3A%2F%2Fnikdev.beget.tech" =================> "http%3A%2F%2Fnikdev.beget.tech"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html" ===================================> "/home/n/nikdev/beget.tech/public_html"
+	SEARCH  2:"\/var\/www\/html" ================================> "\/home\/n\/nikdev\/beget.tech\/public_html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml" =============================> "%2Fhome%2Fn%2Fnikdev%2Fbeget.tech%2Fpublic_html"
+	SEARCH  4:"\var\www\html" ===================================> "/home/n/nikdev/beget.tech/public_html"
+	SEARCH  5:"\\var\\www\\html" ================================> "\/home\/n\/nikdev\/beget.tech\/public_html"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml" =============================> "%2Fhome%2Fn%2Fnikdev%2Fbeget.tech%2Fpublic_html"
+	SEARCH  7:"//localhost" =====================================> "//nikdev.beget.tech"
+	SEARCH  8:"\/\/localhost" ===================================> "\/\/nikdev.beget.tech"
+	SEARCH  9:"%2F%2Flocalhost" =================================> "%2F%2Fnikdev.beget.tech"
+	SEARCH 10:"https://nikdev.beget.tech" =======================> "http://nikdev.beget.tech"
+	SEARCH 11:"https:\/\/nikdev.beget.tech" =====================> "http:\/\/nikdev.beget.tech"
+	SEARCH 12:"https%3A%2F%2Fnikdev.beget.tech" =================> "http%3A%2F%2Fnikdev.beget.tech"
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:45 	|	 Rows:881 	|	 Cells:5536 
+UPDATED:	Tables:5 	|	 Rows:135 	|	 Cells:170 
+ERRORS:		0 
+RUNTIME:	0.213800 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""nikdev_user""
+	UPDATE DB_USER ""nikdev_user""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__22c09c2-30082406' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 08:42:36 - RUNTIME: 0.3635 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
