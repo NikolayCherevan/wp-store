@@ -61,9 +61,9 @@ body {
     body .menu-item-39 a:before {
       content: '';
       background-image: url("./../../assets/images/icons/telemarketer.svg"); }
-  body .menu-item-125 {
+  body .menu-item-223 {
     display: none; }
-    body .menu-item-125 a:before {
+    body .menu-item-223 a:before {
       content: '';
       background-image: url("./../../assets/images/icons/sales.svg"); }
   @media (min-width: 960px) {
