@@ -85,6 +85,9 @@ body {
   color: #404248 !important; }
   body h2 {
     font-family: "kek"; }
+  body .nv-page-title-wrap.nv-big-title .nv-page-title {
+    border: none !important;
+    text-align: center; }
   body .title {
     text-align: center;
     margin: 40px 0;
