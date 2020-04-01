@@ -1,10 +1,6 @@
 #header-grid {
   box-shadow: none !important; }
 
-@font-face {
-  font-family: "kek";
-  src: url("./../../assets/fonts/17659.otf") format("opentype"); }
-
 body {
   font-family: 'kek' !important; }
   body #nv-primary-navigation-bottom li:hover {
@@ -66,9 +62,22 @@ body {
     body .menu-item-223 a:before {
       content: '';
       background-image: url("./../../assets/images/icons/sales.svg"); }
-  @media (min-width: 960px) {
-    body .hfg_header .header-main-inner.light-mode {
-      display: none; }
-    body .header {
-      min-height: 440px;
-      background: url("./../../assets/images/hero.jpeg"); } }
+  body .menu-item-125 {
+    display: none; }
+    body .menu-item-125 a:before {
+      content: '';
+      background-image: url("./../../assets/images/icons/sales.svg"); }
+
+@media (min-width: 960px) {
+  .hfg_header .header-main-inner.light-mode {
+    display: none; }
+  .header {
+    min-height: 440px;
+    background: url("./../../assets/images/hero.jpeg"); } }
+
+@font-face {
+  font-family: "kek";
+  src: url("./../../assets/fonts/17659.otf") format("opentype"); }
+
+body {
+  font-size: x-large !important; }

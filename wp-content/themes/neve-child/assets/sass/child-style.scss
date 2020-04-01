@@ -1,152 +1,15 @@
+
+@import './../../assets/sass/_variables/var';
 @import './_pages/_home.scss';
-$desktop: 960px;
+@import './../../assets/sass/_inserts/_header.scss';
+
 
 @font-face {
     font-family: "kek";
     src: url("./../../assets/fonts/17659.otf") format("opentype");
 }
 
-
-
-
 body {
-    #nv-primary-navigation-bottom {
-        li:hover {
-            color: #7FA778 !important;
-        }
-    }
-
-    a:hover {
-        color: #7FA778 !important;
-    }
-
-    h1 {
-        font-family: 'kek' !important;
-    }
-
-    font-family: 'kek' !important;
-
-    .builder-item--primary-menu .nav-menu-primary>.primary-menu-ul li:not(.woocommerce-mini-cart-item)>a {
-        text-transform: uppercase;
-        font-weight: 700;
-
-    }
-
-    .header {
-        .row .primary-menu-ul>li {
-            width: inherit;
-            padding: 10px 0;
-            margin: 0 40px;
-        }
-
-        .header--row .hfg-item-center .builder-item--primary-menu .primary-menu-ul>li:not(:last-child) {
-            margin-right: 0;
-        }
-
-        .container {
-            .row.row--wrapper {
-                align-items: end;
-            }
-
-            .builder-item--logo .site-logo {
-                display: flex;
-                justify-content: flex-end;
-            }
-        }
-
-        .light-mode {
-            background-color: transparent !important;
-        }
-
-        .navbar-toggle {
-            border: none;
-
-            outline: none;
-
-        }
-    }
-
-    .hfg_header .header-bottom-inner.light-mode {
-
-        background-color: rgba(255, 239, 246, .6) !important;
-    }
-
-    li {
-        a {
-            &:before {
-                height: 35px;
-                width: 35px;
-                display: inline-block;
-                background-size: contain;
-                background-repeat: no-repeat;
-                margin: 0 15px;
-            }
-
-        }
-    }
-
-    .header-menu-sidebar .nav-menu-primary ul li {
-        background-color: transparent;
-        padding: 15px 0;
-    }
-
-    .menu-item-42 {
-        display: none;
-
-        a {
-            &:before {
-                content: '';
-                background-image: url('./../../assets/images/icons/shopping-cart.svg');
-            }
-        }
-    }
-
-    .menu-item-41 {
-        display: none;
-
-        a {
-            &:before {
-                content: '';
-                background-image: url('./../../assets/images/icons/shop.svg');
-            }
-        }
-    }
-
-    .builder-item--primary-menu .nav-menu-primary>.primary-menu-ul li.current-menu-item>a {
-        color: #7FA778;
-    }
-
-    .menu-item-39 {
-        display: none;
-
-        a {
-            &:before {
-                content: '';
-                background-image: url('./../../assets/images/icons/telemarketer.svg');
-            }
-        }
-    }
-
-    .menu-item-223 {
-        display: none;
-
-        a {
-            &:before {
-                content: '';
-                background-image: url('./../../assets/images/icons/sales.svg');
-            }
-        }
-    }
-
-    @media (min-width: $desktop) {
-        .hfg_header .header-main-inner.light-mode {
-            display: none;
-        }
-
-        .header {
-            min-height: 440px;
-            background: url('./../../assets/images/hero.jpeg');
-        }
-
-    }
+    font-size: x-large!important;
 }
+
