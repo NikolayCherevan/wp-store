@@ -80,4 +80,7 @@ body {
   src: url("./../../assets/fonts/17659.otf") format("opentype"); }
 
 body {
+  font-family: "kek" !important;
   font-size: x-large !important; }
+  body h2 {
+    font-family: "kek"; }
