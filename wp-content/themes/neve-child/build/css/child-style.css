@@ -84,3 +84,5 @@ body {
   font-size: x-large !important; }
   body h2 {
     font-family: "kek"; }
+  body a {
+    text-decoration: none !important; }
