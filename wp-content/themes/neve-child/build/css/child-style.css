@@ -81,8 +81,33 @@ body {
 
 body {
   font-family: "kek" !important;
-  font-size: x-large !important; }
+  font-size: x-large !important;
+  color: #404248 !important; }
   body h2 {
     font-family: "kek"; }
+  body .title {
+    text-align: center;
+    margin: 40px 0;
+    position: relative; }
+    body .title:after {
+      content: '';
+      position: absolute;
+      display: block;
+      width: 2px;
+      top: 0px;
+      left: 290px;
+      height: 100%;
+      background-color: #404248;
+      transform: rotate(90deg); }
+    body .title:before {
+      content: '';
+      position: absolute;
+      display: block;
+      width: 2px;
+      top: 0px;
+      right: 290px;
+      height: 100%;
+      background-color: #404248;
+      transform: rotate(90deg); }
   body a {
     text-decoration: none !important; }
