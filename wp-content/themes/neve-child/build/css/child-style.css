@@ -77,7 +77,7 @@ body {
 
 @font-face {
   font-family: "kek";
-  src: url("./../../assets/fonts/17659.otf") format("opentype"); }
+  src: url("./../../assets/fonts/kek.TTF") format("truetype"); }
 
 body {
   font-family: "kek" !important;
