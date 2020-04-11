@@ -123,7 +123,7 @@ body {
     color: green;
     font-weight: 600; }
   body .wc-block-grid__product-title {
-    color: #7FA778; }
+    color: #667A44 !important; }
   body .woocommerce-Price-currencySymbol {
     visibility: hidden;
     position: relative;
