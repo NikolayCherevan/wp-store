@@ -87,4 +87,12 @@ body {
     .woocommerce .quantity .qty {
         padding: 12px!important;
     }
+    .nv-content-wrap a:not(.button):hover {
+        text-decoration: none;
+        color: white!important;
+    }
+    .nv-content-wrap a:not(.button) {
+        background: #667A44!important;
+        text-decoration: underline;
+    }
 }
