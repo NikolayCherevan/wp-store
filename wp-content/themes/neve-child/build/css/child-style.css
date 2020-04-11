@@ -138,3 +138,5 @@ body {
   body .wc-block-grid__product-price {
     color: green;
     display: block; }
+  body .woocommerce .quantity .qty {
+    padding: 12px !important; }
