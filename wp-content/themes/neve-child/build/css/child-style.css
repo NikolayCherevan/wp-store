@@ -1,6 +1,10 @@
 #header-grid {
   box-shadow: none !important; }
 
+.wc-block-grid .wc-block-grid__product-image img {
+  width: 100%;
+  max-width: 230px !important; }
+
 body {
   font-family: 'kek' !important; }
   body #nv-primary-navigation-bottom li:hover {
