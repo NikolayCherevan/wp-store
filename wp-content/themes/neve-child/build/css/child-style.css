@@ -162,3 +162,6 @@ body {
         border: solid 1px #667A44 !important;
         color: #667A44 !important;
         opacity: 0.45; }
+  body .site-logo .brand {
+    left: 12px;
+    position: relative; }
