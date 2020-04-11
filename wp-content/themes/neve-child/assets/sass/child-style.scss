@@ -60,10 +60,11 @@ body {
         color: green;
         font-weight: 600;
     }
- 
+
     .wc-block-grid__product-title {
-        color: #667A44!important;
+        color: #667A44 !important;
     }
+
     .woocommerce-Price-currencySymbol {
         visibility: hidden;
         position: relative;
@@ -79,27 +80,53 @@ body {
 
         }
     }
+
     .wc-block-grid__product-price.price {
         del {
-            color: darkgray!important;
+            color: darkgray !important;
         }
     }
+
     .woocommerce.single .quantity input {
-        padding: 12px!important;
+        padding: 12px !important;
     }
+
     .wc-block-grid__product-price {
         color: green;
         display: block;
     }
+
     .woocommerce .quantity .qty {
-        padding: 12px!important;
+        padding: 12px !important;
     }
+
     .nv-content-wrap a:not(.button):hover {
         text-decoration: none;
-        color: white!important;
+        color: white !important;
     }
+
     .nv-content-wrap a:not(.button) {
-        background: #667A44!important;
+        background: #667A44 !important;
         text-decoration: underline;
+    }
+
+    .wp-block-quote {
+        p {
+            text-align: center;
+            font-weight: 700;
+
+            a {
+                background: transparent !important;
+                padding: 10px;
+                border: solid 1px #667A44 !important;
+                border-radius: 4px;
+
+                &:hover {
+                    border: solid 1px #667A44 !important;
+                    color: #667A44 !important;
+                    opacity: 0.45;
+                }
+            }
+        }
     }
 }

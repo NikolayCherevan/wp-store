@@ -150,3 +150,15 @@ body {
   body .nv-content-wrap a:not(.button) {
     background: #667A44 !important;
     text-decoration: underline; }
+  body .wp-block-quote p {
+    text-align: center;
+    font-weight: 700; }
+    body .wp-block-quote p a {
+      background: transparent !important;
+      padding: 10px;
+      border: solid 1px #667A44 !important;
+      border-radius: 4px; }
+      body .wp-block-quote p a:hover {
+        border: solid 1px #667A44 !important;
+        color: #667A44 !important;
+        opacity: 0.45; }
