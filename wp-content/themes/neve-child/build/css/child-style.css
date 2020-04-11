@@ -1,3 +1,4 @@
+@charset "UTF-8";
 #header-grid {
   box-shadow: none !important; }
 
@@ -118,3 +119,22 @@ body {
       transform: rotate(90deg); }
   body a {
     text-decoration: none !important; }
+  body .woocommerce-Price-amoun {
+    color: green;
+    font-weight: 600; }
+  body .wc-block-grid__product-title {
+    color: #7FA778; }
+  body .woocommerce-Price-currencySymbol {
+    visibility: hidden;
+    position: relative;
+    margin-left: 20px; }
+    body .woocommerce-Price-currencySymbol:after {
+      visibility: visible;
+      content: 'грн';
+      position: absolute;
+      margin-left: -30px; }
+  body .woocommerce.single .quantity input {
+    padding: 12px; }
+  body .wc-block-grid__product-price {
+    color: green;
+    display: block; }

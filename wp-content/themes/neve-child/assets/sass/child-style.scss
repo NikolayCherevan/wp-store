@@ -1,4 +1,3 @@
-
 @import './../../assets/sass/_variables/var';
 @import './_pages/_home.scss';
 @import './../../assets/sass/_inserts/_header.scss';
@@ -6,10 +5,83 @@
 
 @font-face {
     font-family: "kek";
-    src: url("./../../assets/fonts/17659.otf") format("opentype");
+    src: url("./../../assets/fonts/kek.TTF") format("truetype");
 }
 
 body {
-    font-size: x-large!important;
-}
+    font-family: "kek" !important;
+    font-size: x-large !important;
+    color: $default-color !important;
 
+    h2 {
+        font-family: "kek";
+    }
+
+    .nv-page-title-wrap.nv-big-title .nv-page-title {
+        border: none !important;
+        text-align: center;
+    }
+
+    .title {
+        text-align: center;
+        margin: 40px 0;
+        position: relative;
+
+        &:after {
+            content: '';
+            position: absolute;
+            display: block;
+            width: 2px;
+            top: 0px;
+            left: 10vw;
+            height: 100%;
+            background-color: $default-color;
+            transform: rotate(90deg);
+        }
+
+        &:before {
+            content: '';
+            position: absolute;
+            display: block;
+            width: 2px;
+            top: 0px;
+            right: 10vw;
+            height: 100%;
+            background-color: $default-color;
+            transform: rotate(90deg);
+        }
+    }
+
+    a {
+        text-decoration: none !important;
+    }
+
+    .woocommerce-Price-amoun {
+        color: green;
+        font-weight: 600;
+    }
+ 
+    .wc-block-grid__product-title {
+        color: $main-green-dark;
+    }
+    .woocommerce-Price-currencySymbol {
+        visibility: hidden;
+        position: relative;
+        margin-left: 20px;
+
+        &:after {
+            visibility: visible;
+            content: 'грн';
+            position: absolute;
+            margin-left: -30px;
+
+        }
+    }
+    .woocommerce.single .quantity input { 
+        padding: 12px;
+    }
+    .wc-block-grid__product-price {
+        color: green;
+        display: block;
+    }
+}

@@ -56,7 +56,7 @@ define( 'DB_PASSWORD', "user" );
 
 /** MySQL hostname */
 
-define( 'DB_HOST', "localhost" );
+define( 'DB_HOST', "localhost/wp" );
 
 
 /** Database Charset to use in creating database tables. */
