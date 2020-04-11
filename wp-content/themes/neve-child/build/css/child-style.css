@@ -127,12 +127,16 @@ body {
   body .woocommerce-Price-currencySymbol {
     visibility: hidden;
     position: relative;
-    margin-left: 20px; }
+    margin-left: 15px;
+    margin-right: 20px;
+    font-style: oblique; }
     body .woocommerce-Price-currencySymbol:after {
       visibility: visible;
       content: 'грн';
       position: absolute;
       margin-left: -30px; }
+  body .wc-block-grid__product-price.price del {
+    color: darkgray !important; }
   body .woocommerce.single .quantity input {
     padding: 12px !important; }
   body .wc-block-grid__product-price {
