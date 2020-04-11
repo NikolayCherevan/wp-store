@@ -77,9 +77,8 @@ body {
 
         }
     }
-    .woocommerce .input-text.qty.text { 
+    .woocommerce.single .quantity input {
         padding: 12px!important;
-
     }
     .wc-block-grid__product-price {
         color: green;

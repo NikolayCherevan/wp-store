@@ -133,7 +133,7 @@ body {
       content: 'грн';
       position: absolute;
       margin-left: -30px; }
-  body .woocommerce .input-text.qty.text {
+  body .woocommerce.single .quantity input {
     padding: 12px !important; }
   body .wc-block-grid__product-price {
     color: green;
